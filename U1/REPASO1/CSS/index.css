@@ -1,0 +1,95 @@
+body{
+
+background-image: url("https://i.pinimg.com/originals/d2/fb/e9/d2fbe9bbf9026d2ea5a1aa15bb2cc220.jpg");
+}    
+.cajaDeDatos{
+
+    background-color: rgb(157, 253, 189); 
+
+    /*Cambiando el tamaño de la caja*/
+    width: 500px;     /*alto*/
+    height: 500px;     /*tamaño*/
+
+
+/* FORMA 1 DE CENTRAR LA CAJA*/
+
+/* margin-left:400px ;
+margin-top: 58px; */
+
+/*FORMA 2 DE CENTRAR LA CAJA*/
+
+margin: 100px auto;
+
+/* APLICANDO DESDE LA CAJA */
+border: 5px rgb(154, 229, 248);
+border-style: double;
+
+/* APLICANDO DOBLE BORDE A LA CAJA */
+
+outline: 5px rgb(150, 242, 248);
+outline-style: solid;
+
+/* APLICANDO SOMBRAS A LA CAJA */
+
+box-shadow: 30px 30px 30px gray ;
+
+/* APLICANDO OPACIDAD A LA CAJA */
+
+opacity: 0.8;
+
+
+}
+
+.titulo{
+/* CENTRANDO EL TEXTO EN LA CAJA */
+
+text-align: center;
+font-family: Georgia;
+font-size: 15px;
+color: crimson;
+text-decoration: overline;   
+
+}
+
+.botonEnviar{
+    /* background-color: aqua; */
+    margin-left: 200px;
+
+
+}
+
+.usuario{
+    margin-left: 10px;
+    margin-right: 20px;
+    font-family:Georgia;
+    font-weight: bold ; /* BOLD NEGRITA */
+    font-size: 15px;
+    color: rgb(255, 163, 129);
+}
+
+.cajaResultados{
+
+    background-color: rgb(180, 179, 179);
+    height: 90px;
+    width: 400px;
+    margin-left: 20px;
+    text-align: center;
+    color: antiquewhite;
+    font-family: Georgia;
+    font-size: 15px;
+
+}
+
+.botonesDeAudios{
+    /* background-color: rgb(215, 173, 253); */
+    width: 500px;
+    height: 30px;
+    margin: 5px auto;
+    text-align: center;
+
+}
+
+/* .cajaAudio{
+
+    opacity: 0; 
+}  */

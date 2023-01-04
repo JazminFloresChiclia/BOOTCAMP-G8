@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REPASO</title>
+
+<link rel="stylesheet" href="./CSS/index.css"> 
+
+</head>
+<body >
+    
+<div class="cajaDeDatos" >
+
+
+    <div class="titulo">
+        
+        <h1 > DATOS PERSONALES </h1>
+    </div>
+
+    <hr>
+    <div class="usuario">
+        <label for="nombres"> NOMBRES:</label>
+        <input type="text" id="nombre" class="casillaNombre" placeholder="INGRESA TU NOMBRE"> 
+<hr> 
+
+        <label for="apellidos"> APELLIDO:</label>
+        <input type="text" id="apellido" class="casillaApellido" placeholder="INGRESA TU APELLIDO"> 
+<hr>
+
+        <label for="fecha"> FECHA DE NACIMIENTO:</label>
+        <input type="date" id="fecha" class="casillaFecha"> 
+
+<hr>
+        <label for="edad"> EDAD:</label>
+        <input type="number" id="edad" class="casillaEdad" placeholder="INGRESA TU EDAD"> 
+
+<hr>
+
+        <label for="correo"> CORREO:</label>
+        <input type="email" id="correo" class="casillaCorreo" placeholder="INGRESA TU CORREO"> 
+
+<hr>
+
+        <label for="telefono"> TELEFONO:</label>
+        <input type="tel" id="telefono" class="casillaTelefono" placeholder="INGRESA TU TELEFONO"> 
+
+<hr>
+
+<label for="distrito"> DISTRITO:</label>
+<select  id="distrito">
+
+            <option value="Comas">Comas</option>
+            <option value="Los Olivos">Los Olivos</option>
+            <option value="Carabayllo">Carabayllo</option>
+            <option value="San Martin De Porres">San Martin De Porres</option>
+            <option value="Callao">Callao</option>
+        </select>
+<hr>
+
+<label for="mascota"> MASCOTA:</label>
+<select  id="mascota">
+
+            <option value="perro">perro</option>
+            <option value="gato">gato</option>
+            <option value="hamster">hamster</option>
+            <option value="tortuga">tortuga</option>
+            <option value="conejo">Conejo</option>
+            <option value="pato">pato</option>
+            <option value="Canario">Canario</option>
+</select>
+ 
+<hr>
+        <input type="submit" id="enviar" class="botonEnviar" value="Enviar Datos" onclick="datos()">
+
+    </div>
+    
+        <div class="cajaResultados">
+            <p id="resultados" class="parrafoResultados" > RESULTADOS DEL USUARIO </p>
+
+
+
+
+
+
+        </div>
+    
+   
+
+
+
+</div> 
+ <!-- <audio controls  id="audio1" class="cajaAudio" >
+
+        <source src="./audios/of-the-bells.mp3" type="audio/mp3">
+
+    </audio>-->
+
+<div class="botonesDeAudios">
+    <button id="reproducir"> PLAY </button>
+    <button id="pausa"> PAUSAR </button>
+    <button id="detener"> DETENER </button>
+
+</div>
+
+
+
+
+
+
+
+
+    
+
+
+<script src="./JS/index.js"></script>  
+</body>
+</html>
